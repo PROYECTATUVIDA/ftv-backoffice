@@ -1,0 +1,6 @@
+import Link from 'next/link';
+
+export default function Sidebar() {
+return ( <aside className="sidebar"> <div className="logo"> <img src="/logo-placeholder.png" alt="FTV" /> </div> <nav> <Link href="/">Inicio</Link> <Link href="/dashboard">Dashboard</Link> </nav> </aside>
+);
+}
